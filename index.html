@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    let div1=document.createElement("div");
+    document.body.appendChild(div1);
+    div1.style.height="350px";
+    div1.style.border="2px solid blue";
+    div1.style.width="200px"
+    div1.style.borderRadius="50px";
+    div1.style.backgroundColor="aqua"
+
+    let h1=document.createElement("h2");
+    h1.innerHTML="ID CARD";
+    div1.appendChild(h1);
+    div1.style.paddingLeft="30px";
+
+    let img=document.createElement("img");
+    img.setAttribute("src","https://www.proeves.com/blog/wp-content/uploads/2021/06/o-HAPPY-STONG-CHILD-facebook-1576x1000.jpeg");
+    div1.appendChild(img);
+    img.setAttribute("height","150")
+    img.setAttribute("width","150")
+    img.style.borderRadius="100%"
+
+
+
+
+
+
+    let h4=document.createElement("h4");
+    h4.innerHTML="Name:M.Sweety";
+    div1.appendChild(h4);
+
+    let text=document.createElement("h4");
+    text.innerHTML="Batch:14R";
+    div1.appendChild(text);
+
+    let text1=document.createElement("h4");
+    text1.innerText="Role:FrontEnd Developer"
+    div1.appendChild(text1)
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+
+</html>
